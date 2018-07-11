@@ -25,14 +25,14 @@ puts last_student_by_index
 def first_student_by_method
   STUDENT_NAMES.first
 end
-first_student_by_method
+puts first_student_by_method
 
 def last_student_by_method
   STUDENT_NAMES.last
 end
-last_student_by_method
+puts last_student_by_method
 
 def first_second_and_third_students
   puts STUDENT_NAMES [0,1,2]
 end
-first_second_and_third_students
+puts first_second_and_third_students
