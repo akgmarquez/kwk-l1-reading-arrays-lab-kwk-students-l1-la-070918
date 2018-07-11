@@ -33,6 +33,8 @@ end
 puts last_student_by_method
 
 def first_second_and_third_students
-  puts STUDENT_NAMES [0,1,2]
+  puts STUDENT_NAMES[0]
+  puts STUDENT_NAMES[1]
+  puts STUDENT_NAMES[2]
 end
 puts first_second_and_third_students
